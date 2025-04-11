@@ -1,0 +1,3126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_17dcd553e71a093bda0c5792ac23114d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_17dcd553e71a093bda0c5792ac23114d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_17dcd553e71a093bda0c5792ac23114d = L.map(
+                "map_17dcd553e71a093bda0c5792ac23114d",
+                {
+                    center: [41.9028, 12.4964],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f1c4c9e55fca9e7db20d4794d27cef0f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f1c4c9e55fca9e7db20d4794d27cef0f.addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var marker_3769128c77664c0b279d62a66b4d93b9 = L.marker(
+                [41.9028, 12.4964],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_3e7dd960183bf3df3cd8b94a6d050242 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6676a39fe02b2cde94055687dd0e08d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca3421960d6e41401565cb4a79e66a2c = $(`<div id="html_ca3421960d6e41401565cb4a79e66a2c" style="width: 100.0%; height: 100.0%;">Punto Fisso (Roma)</div>`)[0];
+                popup_6676a39fe02b2cde94055687dd0e08d5.setContent(html_ca3421960d6e41401565cb4a79e66a2c);
+            
+        
+
+        marker_3769128c77664c0b279d62a66b4d93b9.bindPopup(popup_6676a39fe02b2cde94055687dd0e08d5)
+        ;
+
+        
+    
+    
+                marker_3769128c77664c0b279d62a66b4d93b9.setIcon(icon_3e7dd960183bf3df3cd8b94a6d050242);
+            
+    
+            var marker_63ec2b7db3cd33c2a0cc751672c76e28 = L.marker(
+                [37.472622, 15.071815],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_b3152f0d6aa7368f6326e5ec0d4d069b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2aa49dd44da277e406ec1a5682fb6980 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c5e3a4dda82431cb3176a1323889304 = $(`<div id="html_1c5e3a4dda82431cb3176a1323889304" style="width: 100.0%; height: 100.0%;">     <b>COMER SUD SPA</b><br>     Distanza: 800.92 km<br>     Durata: 591.4 min     </div>`)[0];
+                popup_2aa49dd44da277e406ec1a5682fb6980.setContent(html_1c5e3a4dda82431cb3176a1323889304);
+            
+        
+
+        marker_63ec2b7db3cd33c2a0cc751672c76e28.bindPopup(popup_2aa49dd44da277e406ec1a5682fb6980)
+        ;
+
+        
+    
+    
+                marker_63ec2b7db3cd33c2a0cc751672c76e28.setIcon(icon_b3152f0d6aa7368f6326e5ec0d4d069b);
+            
+    
+            var marker_79e4d0214fe63e7f68b82d42803e4159 = L.marker(
+                [37.766706, 12.478844],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_8e9760da561e101650039fc814e564dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75676113599e10009c2cdb62721a01c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6573cdb1ba8cc9c6eb421d46856b449b = $(`<div id="html_6573cdb1ba8cc9c6eb421d46856b449b" style="width: 100.0%; height: 100.0%;">     <b>O.M.V.I. S.N.C.</b><br>     Distanza: 1053.05 km<br>     Durata: 760.0 min     </div>`)[0];
+                popup_75676113599e10009c2cdb62721a01c4.setContent(html_6573cdb1ba8cc9c6eb421d46856b449b);
+            
+        
+
+        marker_79e4d0214fe63e7f68b82d42803e4159.bindPopup(popup_75676113599e10009c2cdb62721a01c4)
+        ;
+
+        
+    
+    
+                marker_79e4d0214fe63e7f68b82d42803e4159.setIcon(icon_8e9760da561e101650039fc814e564dc);
+            
+    
+            var marker_31acc15a7ce1cbf593abfa15149fbde7 = L.marker(
+                [41.544399, 13.482156],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_2190ba13a627571bcd854c1838db8d46 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ab3c3c35b46390d79d053cd3de23cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fba53fa61b1ff3b650162e76fb65dd24 = $(`<div id="html_fba53fa61b1ff3b650162e76fb65dd24" style="width: 100.0%; height: 100.0%;">     <b>IANNUCCI  PROIA S.N.C.</b><br>     Distanza: 104.65 km<br>     Durata: 72.8 min     </div>`)[0];
+                popup_2ab3c3c35b46390d79d053cd3de23cab.setContent(html_fba53fa61b1ff3b650162e76fb65dd24);
+            
+        
+
+        marker_31acc15a7ce1cbf593abfa15149fbde7.bindPopup(popup_2ab3c3c35b46390d79d053cd3de23cab)
+        ;
+
+        
+    
+    
+                marker_31acc15a7ce1cbf593abfa15149fbde7.setIcon(icon_2190ba13a627571bcd854c1838db8d46);
+            
+    
+            var marker_27322eab1c03d12212083e9be2d8ee3f = L.marker(
+                [42.133127, 12.586382],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_512b345fea52e15653ebc803003c96d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08ae7004d8e5d0509e32c11b4df61c6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcffcb5414302a1dd41f140757041ca2 = $(`<div id="html_bcffcb5414302a1dd41f140757041ca2" style="width: 100.0%; height: 100.0%;">     <b>O.R.M.I.A. S.N.C.</b><br>     Distanza: 35.3 km<br>     Durata: 40.6 min     </div>`)[0];
+                popup_08ae7004d8e5d0509e32c11b4df61c6a.setContent(html_bcffcb5414302a1dd41f140757041ca2);
+            
+        
+
+        marker_27322eab1c03d12212083e9be2d8ee3f.bindPopup(popup_08ae7004d8e5d0509e32c11b4df61c6a)
+        ;
+
+        
+    
+    
+                marker_27322eab1c03d12212083e9be2d8ee3f.setIcon(icon_512b345fea52e15653ebc803003c96d5);
+            
+    
+            var marker_43a344139fbfafd9b1f4dba9ab84acc7 = L.marker(
+                [44.905297, 8.908736],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_6eb0b39db6ff01f06cd27b5e693df770 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b484502f5bee5408268b60f4e91ae05f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd5dda743c9d675ab5e19d15676df332 = $(`<div id="html_cd5dda743c9d675ab5e19d15676df332" style="width: 100.0%; height: 100.0%;">     <b>REBELLATO S.R.L.</b><br>     Distanza: 583.85 km<br>     Durata: 341.3 min     </div>`)[0];
+                popup_b484502f5bee5408268b60f4e91ae05f.setContent(html_cd5dda743c9d675ab5e19d15676df332);
+            
+        
+
+        marker_43a344139fbfafd9b1f4dba9ab84acc7.bindPopup(popup_b484502f5bee5408268b60f4e91ae05f)
+        ;
+
+        
+    
+    
+                marker_43a344139fbfafd9b1f4dba9ab84acc7.setIcon(icon_6eb0b39db6ff01f06cd27b5e693df770);
+            
+    
+            var marker_d325d9d470b7dc1d3c344a17395f50bd = L.marker(
+                [46.112842, 11.091387],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_16a73f9c51cf99d0c4e6389d663df132 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d6e4339acc8b5ec52b3d1ef754b43cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf470bc61c85f6d00b8baca7b487b73c = $(`<div id="html_bf470bc61c85f6d00b8baca7b487b73c" style="width: 100.0%; height: 100.0%;">     <b>INTERSERVICE S.P.A.</b><br>     Distanza: 588.91 km<br>     Durata: 330.9 min     </div>`)[0];
+                popup_7d6e4339acc8b5ec52b3d1ef754b43cc.setContent(html_bf470bc61c85f6d00b8baca7b487b73c);
+            
+        
+
+        marker_d325d9d470b7dc1d3c344a17395f50bd.bindPopup(popup_7d6e4339acc8b5ec52b3d1ef754b43cc)
+        ;
+
+        
+    
+    
+                marker_d325d9d470b7dc1d3c344a17395f50bd.setIcon(icon_16a73f9c51cf99d0c4e6389d663df132);
+            
+    
+            var marker_4a67aacae7d5978517deb79c6e5bda16 = L.marker(
+                [44.935927, 7.837452],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_83141ad3a65d37d2334a92e98bba5a1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a13442d5d325e8ed59e0b692489d35b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65302b5f777978327b757865e312004c = $(`<div id="html_65302b5f777978327b757865e312004c" style="width: 100.0%; height: 100.0%;">     <b>LV SERVICE DI CIAGLIA LUCA</b><br>     Distanza: 672.13 km<br>     Durata: 384.7 min     </div>`)[0];
+                popup_2a13442d5d325e8ed59e0b692489d35b.setContent(html_65302b5f777978327b757865e312004c);
+            
+        
+
+        marker_4a67aacae7d5978517deb79c6e5bda16.bindPopup(popup_2a13442d5d325e8ed59e0b692489d35b)
+        ;
+
+        
+    
+    
+                marker_4a67aacae7d5978517deb79c6e5bda16.setIcon(icon_83141ad3a65d37d2334a92e98bba5a1f);
+            
+    
+            var marker_cf2d8dba0889aa2bcb8aa5608da6482a = L.marker(
+                [46.074985, 11.122094],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_92d11817c25acc554c7549ce34be3390 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b94398b2510d353afe05b27878288dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e67c2310f4e43c072813bbd1322ef1c = $(`<div id="html_6e67c2310f4e43c072813bbd1322ef1c" style="width: 100.0%; height: 100.0%;">     <b>VRENT SPA</b><br>     Distanza: 584.4 km<br>     Durata: 334.6 min     </div>`)[0];
+                popup_8b94398b2510d353afe05b27878288dc.setContent(html_6e67c2310f4e43c072813bbd1322ef1c);
+            
+        
+
+        marker_cf2d8dba0889aa2bcb8aa5608da6482a.bindPopup(popup_8b94398b2510d353afe05b27878288dc)
+        ;
+
+        
+    
+    
+                marker_cf2d8dba0889aa2bcb8aa5608da6482a.setIcon(icon_92d11817c25acc554c7549ce34be3390);
+            
+    
+            var marker_1230bea70be9ce17cc89e4a0848b66af = L.marker(
+                [45.475056, 10.413304],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_51fe47d671a6044338cd3136c89a2f3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7613a26e6a6f01a3876962dc44df163 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_094f49e18c36661e28dfaf62eebe775c = $(`<div id="html_094f49e18c36661e28dfaf62eebe775c" style="width: 100.0%; height: 100.0%;">     <b>C.A.V.I. DIESEL S.P.A.</b><br>     Distanza: 534.28 km<br>     Durata: 311.0 min     </div>`)[0];
+                popup_f7613a26e6a6f01a3876962dc44df163.setContent(html_094f49e18c36661e28dfaf62eebe775c);
+            
+        
+
+        marker_1230bea70be9ce17cc89e4a0848b66af.bindPopup(popup_f7613a26e6a6f01a3876962dc44df163)
+        ;
+
+        
+    
+    
+                marker_1230bea70be9ce17cc89e4a0848b66af.setIcon(icon_51fe47d671a6044338cd3136c89a2f3c);
+            
+    
+            var marker_1dbe3146cd1d08b7409c8c202e060b6c = L.marker(
+                [38.848361, 16.659788],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_53aa4fae6683fad7ab4e204934a02603 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3daf85bb98c715e201f5ba81a7c28c3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_920c520631a613a5f95e688843047fe7 = $(`<div id="html_920c520631a613a5f95e688843047fe7" style="width: 100.0%; height: 100.0%;">     <b>TECNOIDRO S.R.L.</b><br>     Distanza: 619.46 km<br>     Durata: 393.1 min     </div>`)[0];
+                popup_3daf85bb98c715e201f5ba81a7c28c3b.setContent(html_920c520631a613a5f95e688843047fe7);
+            
+        
+
+        marker_1dbe3146cd1d08b7409c8c202e060b6c.bindPopup(popup_3daf85bb98c715e201f5ba81a7c28c3b)
+        ;
+
+        
+    
+    
+                marker_1dbe3146cd1d08b7409c8c202e060b6c.setIcon(icon_53aa4fae6683fad7ab4e204934a02603);
+            
+    
+            var marker_62839c7f4d7589e64568ef13749776e3 = L.marker(
+                [45.566637, 12.073004],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_60c7ba54a7a07ddcb0b966750fefd33e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f02440f4fa97b236cf20e48f36406d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6fac09dd7220d78099aca699204e2e0e = $(`<div id="html_6fac09dd7220d78099aca699204e2e0e" style="width: 100.0%; height: 100.0%;">     <b>NUOVA AUTOCAR 94 SRL</b><br>     Distanza: 528.55 km<br>     Durata: 307.8 min     </div>`)[0];
+                popup_4f02440f4fa97b236cf20e48f36406d8.setContent(html_6fac09dd7220d78099aca699204e2e0e);
+            
+        
+
+        marker_62839c7f4d7589e64568ef13749776e3.bindPopup(popup_4f02440f4fa97b236cf20e48f36406d8)
+        ;
+
+        
+    
+    
+                marker_62839c7f4d7589e64568ef13749776e3.setIcon(icon_60c7ba54a7a07ddcb0b966750fefd33e);
+            
+    
+            var marker_abcf673fecc60952480271433c854fa7 = L.marker(
+                [43.807596, 11.175063],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_ca572b7fa60388fafdff501b4d9ab001 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f17696cf6d27578b79ca5ccea6fdeabe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_065baa1cf39305e107084a2951a64140 = $(`<div id="html_065baa1cf39305e107084a2951a64140" style="width: 100.0%; height: 100.0%;">     <b>EREDI DI PAPI ELIO SRL</b><br>     Distanza: 288.55 km<br>     Durata: 172.6 min     </div>`)[0];
+                popup_f17696cf6d27578b79ca5ccea6fdeabe.setContent(html_065baa1cf39305e107084a2951a64140);
+            
+        
+
+        marker_abcf673fecc60952480271433c854fa7.bindPopup(popup_f17696cf6d27578b79ca5ccea6fdeabe)
+        ;
+
+        
+    
+    
+                marker_abcf673fecc60952480271433c854fa7.setIcon(icon_ca572b7fa60388fafdff501b4d9ab001);
+            
+    
+            var marker_6ffe0ea6f5f60c0fe182da3db720d212 = L.marker(
+                [42.744983, 12.077807],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_b4eaede3647dafca91fe4d6df56e514b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b599c7257e937566cb1c41094488a74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f27ac0ebd3cf60d90b0189a16094a8e = $(`<div id="html_4f27ac0ebd3cf60d90b0189a16094a8e" style="width: 100.0%; height: 100.0%;">     <b>O.M.A.R. S.N.C.</b><br>     Distanza: 124.0 km<br>     Durata: 91.9 min     </div>`)[0];
+                popup_8b599c7257e937566cb1c41094488a74.setContent(html_4f27ac0ebd3cf60d90b0189a16094a8e);
+            
+        
+
+        marker_6ffe0ea6f5f60c0fe182da3db720d212.bindPopup(popup_8b599c7257e937566cb1c41094488a74)
+        ;
+
+        
+    
+    
+                marker_6ffe0ea6f5f60c0fe182da3db720d212.setIcon(icon_b4eaede3647dafca91fe4d6df56e514b);
+            
+    
+            var marker_bfa4a02b9accea7c227106b01b42fc61 = L.marker(
+                [41.686089, 12.475078],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a48bb9485a754a8128f4da710b3605e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed4ce076e069c5e5a1a82ae92b523877 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eaf583fca05a9dfdefbae3c1f44e54c9 = $(`<div id="html_eaf583fca05a9dfdefbae3c1f44e54c9" style="width: 100.0%; height: 100.0%;">     <b>MAC S.R.L.</b><br>     Distanza: 28.94 km<br>     Durata: 39.9 min     </div>`)[0];
+                popup_ed4ce076e069c5e5a1a82ae92b523877.setContent(html_eaf583fca05a9dfdefbae3c1f44e54c9);
+            
+        
+
+        marker_bfa4a02b9accea7c227106b01b42fc61.bindPopup(popup_ed4ce076e069c5e5a1a82ae92b523877)
+        ;
+
+        
+    
+    
+                marker_bfa4a02b9accea7c227106b01b42fc61.setIcon(icon_a48bb9485a754a8128f4da710b3605e5);
+            
+    
+            var marker_5e20990166eb95bde8b2d90b1b1a9fb9 = L.marker(
+                [44.634463, 11.168185],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_06772406914290a1d09bb1c47a7c9a52 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd99bedd8d225673cfe5b9cc6d003d9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_305fa07e1bab02e9ea37f0d4c9b73c28 = $(`<div id="html_305fa07e1bab02e9ea37f0d4c9b73c28" style="width: 100.0%; height: 100.0%;">     <b>OFFICINE MARTINI SRL</b><br>     Distanza: 392.96 km<br>     Durata: 236.2 min     </div>`)[0];
+                popup_fd99bedd8d225673cfe5b9cc6d003d9a.setContent(html_305fa07e1bab02e9ea37f0d4c9b73c28);
+            
+        
+
+        marker_5e20990166eb95bde8b2d90b1b1a9fb9.bindPopup(popup_fd99bedd8d225673cfe5b9cc6d003d9a)
+        ;
+
+        
+    
+    
+                marker_5e20990166eb95bde8b2d90b1b1a9fb9.setIcon(icon_06772406914290a1d09bb1c47a7c9a52);
+            
+    
+            var marker_4acc55898533b215cd2a6b7077309569 = L.marker(
+                [43.7178, 10.988566],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_d76e065192bfde3749e3be822d57102a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_010d31e600a1c8db4f908de3bfc586f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_905d1bec31db19a85d8e884a2a5f9275 = $(`<div id="html_905d1bec31db19a85d8e884a2a5f9275" style="width: 100.0%; height: 100.0%;">     <b>TRUCK ITALIA SPA</b><br>     Distanza: 299.87 km<br>     Durata: 182.4 min     </div>`)[0];
+                popup_010d31e600a1c8db4f908de3bfc586f7.setContent(html_905d1bec31db19a85d8e884a2a5f9275);
+            
+        
+
+        marker_4acc55898533b215cd2a6b7077309569.bindPopup(popup_010d31e600a1c8db4f908de3bfc586f7)
+        ;
+
+        
+    
+    
+                marker_4acc55898533b215cd2a6b7077309569.setIcon(icon_d76e065192bfde3749e3be822d57102a);
+            
+    
+            var marker_32e90169536fefb2ef92bc08c1a18326 = L.marker(
+                [43.07054, 12.330188],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_05750197de707349065a3b735dd6ae2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd6e41af2019df2658b4f85f386a4873 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15b72bec43cc24f6a9d5fe0f7100edf1 = $(`<div id="html_15b72bec43cc24f6a9d5fe0f7100edf1" style="width: 100.0%; height: 100.0%;">     <b>ORA SRL</b><br>     Distanza: 169.87 km<br>     Durata: 133.8 min     </div>`)[0];
+                popup_dd6e41af2019df2658b4f85f386a4873.setContent(html_15b72bec43cc24f6a9d5fe0f7100edf1);
+            
+        
+
+        marker_32e90169536fefb2ef92bc08c1a18326.bindPopup(popup_dd6e41af2019df2658b4f85f386a4873)
+        ;
+
+        
+    
+    
+                marker_32e90169536fefb2ef92bc08c1a18326.setIcon(icon_05750197de707349065a3b735dd6ae2f);
+            
+    
+            var marker_571b97798c402a1a92255426b0ce2a88 = L.marker(
+                [45.629361, 9.101121],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_19c80cc2abf19096066d3500804b693a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c81b2b4b5e05ee1ee7929380a5b7b089 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_033857602116d2a32511608481452cee = $(`<div id="html_033857602116d2a32511608481452cee" style="width: 100.0%; height: 100.0%;">     <b>AUTODIESEL SRL</b><br>     Distanza: 601.74 km<br>     Durata: 357.2 min     </div>`)[0];
+                popup_c81b2b4b5e05ee1ee7929380a5b7b089.setContent(html_033857602116d2a32511608481452cee);
+            
+        
+
+        marker_571b97798c402a1a92255426b0ce2a88.bindPopup(popup_c81b2b4b5e05ee1ee7929380a5b7b089)
+        ;
+
+        
+    
+    
+                marker_571b97798c402a1a92255426b0ce2a88.setIcon(icon_19c80cc2abf19096066d3500804b693a);
+            
+    
+            var marker_063f7229989f9d72d74294b622c75a50 = L.marker(
+                [44.448522, 12.213206],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_3892cde4469e70fc1bd859284e240c06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6fc6856699071dea54e2ff5c856240fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82c9474b0e88ba61e2f7b768b25cc4c9 = $(`<div id="html_82c9474b0e88ba61e2f7b768b25cc4c9" style="width: 100.0%; height: 100.0%;">     <b>FAVILLA TRUCK COMPANY S.A.S.</b><br>     Distanza: 455.82 km<br>     Durata: 267.2 min     </div>`)[0];
+                popup_6fc6856699071dea54e2ff5c856240fb.setContent(html_82c9474b0e88ba61e2f7b768b25cc4c9);
+            
+        
+
+        marker_063f7229989f9d72d74294b622c75a50.bindPopup(popup_6fc6856699071dea54e2ff5c856240fb)
+        ;
+
+        
+    
+    
+                marker_063f7229989f9d72d74294b622c75a50.setIcon(icon_3892cde4469e70fc1bd859284e240c06);
+            
+    
+            var marker_6c52db8c1a18a15d28e2dddbf0fb647a = L.marker(
+                [45.543972, 12.297619],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_0cce4f2823bb246cc5c6ea584fef17fa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a0808f19d140fad49a08d9d91222b6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a07bea46e1ecf30288b76471468f55 = $(`<div id="html_40a07bea46e1ecf30288b76471468f55" style="width: 100.0%; height: 100.0%;">     <b>SAR.VA TRUCKS S.R.L.</b><br>     Distanza: 527.14 km<br>     Durata: 306.2 min     </div>`)[0];
+                popup_5a0808f19d140fad49a08d9d91222b6d.setContent(html_40a07bea46e1ecf30288b76471468f55);
+            
+        
+
+        marker_6c52db8c1a18a15d28e2dddbf0fb647a.bindPopup(popup_5a0808f19d140fad49a08d9d91222b6d)
+        ;
+
+        
+    
+    
+                marker_6c52db8c1a18a15d28e2dddbf0fb647a.setIcon(icon_0cce4f2823bb246cc5c6ea584fef17fa);
+            
+    
+            var marker_5fcf6cab1804340d9ee5011a4dc221ab = L.marker(
+                [44.068209, 12.533797],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_858d9bdfdceff895df29d6fe824750cc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e8664e3fba7a6fa969dc2a4122de5c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_968201f5466ab8a3876c1aa081b5f28b = $(`<div id="html_968201f5466ab8a3876c1aa081b5f28b" style="width: 100.0%; height: 100.0%;">     <b>CENTRAUTO RICAMBI S.R.L.</b><br>     Distanza: 401.82 km<br>     Durata: 245.9 min     </div>`)[0];
+                popup_8e8664e3fba7a6fa969dc2a4122de5c2.setContent(html_968201f5466ab8a3876c1aa081b5f28b);
+            
+        
+
+        marker_5fcf6cab1804340d9ee5011a4dc221ab.bindPopup(popup_8e8664e3fba7a6fa969dc2a4122de5c2)
+        ;
+
+        
+    
+    
+                marker_5fcf6cab1804340d9ee5011a4dc221ab.setIcon(icon_858d9bdfdceff895df29d6fe824750cc);
+            
+    
+            var marker_dc973375d045891ce5e5b0a468890975 = L.marker(
+                [44.654272, 10.784278],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_368ae0555ff87b4cb36b942a279caee2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_94bfa0e73d2055dcb4389a540cda02ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fefa3a75ab289539bf2c29b190cfbd9 = $(`<div id="html_2fefa3a75ab289539bf2c29b190cfbd9" style="width: 100.0%; height: 100.0%;">     <b>O.R.A.D. SRL</b><br>     Distanza: 412.86 km<br>     Durata: 245.4 min     </div>`)[0];
+                popup_94bfa0e73d2055dcb4389a540cda02ee.setContent(html_2fefa3a75ab289539bf2c29b190cfbd9);
+            
+        
+
+        marker_dc973375d045891ce5e5b0a468890975.bindPopup(popup_94bfa0e73d2055dcb4389a540cda02ee)
+        ;
+
+        
+    
+    
+                marker_dc973375d045891ce5e5b0a468890975.setIcon(icon_368ae0555ff87b4cb36b942a279caee2);
+            
+    
+            var marker_b8539ddfadc6acb760295e23ff8e4469 = L.marker(
+                [44.997141, 12.222702],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_cd3914d346b54f48a77bd94549df4d5d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_93ea2cceb758f9d311c5da7a0347ade7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ddcca1808fddd3d5bf100ad3c5b5d49 = $(`<div id="html_4ddcca1808fddd3d5bf100ad3c5b5d49" style="width: 100.0%; height: 100.0%;">     <b>OFFICINA ROSESTOLATO</b><br>     Distanza: 493.92 km<br>     Durata: 312.9 min     </div>`)[0];
+                popup_93ea2cceb758f9d311c5da7a0347ade7.setContent(html_4ddcca1808fddd3d5bf100ad3c5b5d49);
+            
+        
+
+        marker_b8539ddfadc6acb760295e23ff8e4469.bindPopup(popup_93ea2cceb758f9d311c5da7a0347ade7)
+        ;
+
+        
+    
+    
+                marker_b8539ddfadc6acb760295e23ff8e4469.setIcon(icon_cd3914d346b54f48a77bd94549df4d5d);
+            
+    
+            var marker_940cb6dbe8344665853122a6e2c90fa5 = L.marker(
+                [39.362853, 16.257194],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_1dc3aece6bbcea5102b2f4609aeb156b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0f06193842eeea02b88744fedd19d86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ba59fa31ce34f1be2b24d927d64f692 = $(`<div id="html_2ba59fa31ce34f1be2b24d927d64f692" style="width: 100.0%; height: 100.0%;">     <b>ARCO SERVICE SRL</b><br>     Distanza: 514.25 km<br>     Durata: 309.7 min     </div>`)[0];
+                popup_d0f06193842eeea02b88744fedd19d86.setContent(html_2ba59fa31ce34f1be2b24d927d64f692);
+            
+        
+
+        marker_940cb6dbe8344665853122a6e2c90fa5.bindPopup(popup_d0f06193842eeea02b88744fedd19d86)
+        ;
+
+        
+    
+    
+                marker_940cb6dbe8344665853122a6e2c90fa5.setIcon(icon_1dc3aece6bbcea5102b2f4609aeb156b);
+            
+    
+            var marker_aae0a8b7958e0fda132b93aa815d743a = L.marker(
+                [42.902474, 13.895825],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_5a112ebc4f5e2e05bbf15b2fdc8b44a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb1c4cc80b44755cd4c2495387360377 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f85474a71c62c6a00ad1729613936ac6 = $(`<div id="html_f85474a71c62c6a00ad1729613936ac6" style="width: 100.0%; height: 100.0%;">     <b>O.C.R.A.S. SRL</b><br>     Distanza: 214.06 km<br>     Durata: 142.7 min     </div>`)[0];
+                popup_fb1c4cc80b44755cd4c2495387360377.setContent(html_f85474a71c62c6a00ad1729613936ac6);
+            
+        
+
+        marker_aae0a8b7958e0fda132b93aa815d743a.bindPopup(popup_fb1c4cc80b44755cd4c2495387360377)
+        ;
+
+        
+    
+    
+                marker_aae0a8b7958e0fda132b93aa815d743a.setIcon(icon_5a112ebc4f5e2e05bbf15b2fdc8b44a9);
+            
+    
+            var marker_0a3acf556e3d27cf2f6626ccd4b9f3ce = L.marker(
+                [44.857494, 10.256975],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_7b260bacd62c15500c4fc7f547a6363b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a179b8acaf72166b11c40a6c60c5df73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_241fc987074c3c0c39bc3e9bd6a882b1 = $(`<div id="html_241fc987074c3c0c39bc3e9bd6a882b1" style="width: 100.0%; height: 100.0%;">     <b>EMILIA TRUCK SERVICE S.R.L.</b><br>     Distanza: 462.97 km<br>     Durata: 269.9 min     </div>`)[0];
+                popup_a179b8acaf72166b11c40a6c60c5df73.setContent(html_241fc987074c3c0c39bc3e9bd6a882b1);
+            
+        
+
+        marker_0a3acf556e3d27cf2f6626ccd4b9f3ce.bindPopup(popup_a179b8acaf72166b11c40a6c60c5df73)
+        ;
+
+        
+    
+    
+                marker_0a3acf556e3d27cf2f6626ccd4b9f3ce.setIcon(icon_7b260bacd62c15500c4fc7f547a6363b);
+            
+    
+            var marker_01dd685d7fdb9302bc68c838b72c33c7 = L.marker(
+                [43.499591, 13.114074],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_14b3b658a460e97eb16f84d5b82159f8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5795751eac980d742122db10a953e7e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8aaffa60eae3ac1965fd9f5c2ec621d3 = $(`<div id="html_8aaffa60eae3ac1965fd9f5c2ec621d3" style="width: 100.0%; height: 100.0%;">     <b>NUOVA IDRAMATIC DI CIAFFONI CLAUDIA</b><br>     Distanza: 250.74 km<br>     Durata: 187.4 min     </div>`)[0];
+                popup_5795751eac980d742122db10a953e7e9.setContent(html_8aaffa60eae3ac1965fd9f5c2ec621d3);
+            
+        
+
+        marker_01dd685d7fdb9302bc68c838b72c33c7.bindPopup(popup_5795751eac980d742122db10a953e7e9)
+        ;
+
+        
+    
+    
+                marker_01dd685d7fdb9302bc68c838b72c33c7.setIcon(icon_14b3b658a460e97eb16f84d5b82159f8);
+            
+    
+            var marker_3f6ff3371e51ef1d4231bd0bd7502b6a = L.marker(
+                [45.473659, 11.906015],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_682e559b23c13c388819ff6e0e44fca6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d91abf11954670beab9e5cc3c254d4b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_930534f1c86aba01c88d02a6727d7eed = $(`<div id="html_930534f1c86aba01c88d02a6727d7eed" style="width: 100.0%; height: 100.0%;">     <b>OFFICINE CALLEGARO SRL</b><br>     Distanza: 499.22 km<br>     Durata: 293.6 min     </div>`)[0];
+                popup_d91abf11954670beab9e5cc3c254d4b1.setContent(html_930534f1c86aba01c88d02a6727d7eed);
+            
+        
+
+        marker_3f6ff3371e51ef1d4231bd0bd7502b6a.bindPopup(popup_d91abf11954670beab9e5cc3c254d4b1)
+        ;
+
+        
+    
+    
+                marker_3f6ff3371e51ef1d4231bd0bd7502b6a.setIcon(icon_682e559b23c13c388819ff6e0e44fca6);
+            
+    
+            var marker_1e76d487a4a0ac705d07233b0a07c174 = L.marker(
+                [41.134331, 16.412298],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_e1106451166a278023091e740e7189c9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf73f9ff5c7001309e4c361de843f286 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eeb5b039abee0f337dc580e83bbc552c = $(`<div id="html_eeb5b039abee0f337dc580e83bbc552c" style="width: 100.0%; height: 100.0%;">     <b>ALTAMURA ENRICO</b><br>     Distanza: 469.14 km<br>     Durata: 266.0 min     </div>`)[0];
+                popup_cf73f9ff5c7001309e4c361de843f286.setContent(html_eeb5b039abee0f337dc580e83bbc552c);
+            
+        
+
+        marker_1e76d487a4a0ac705d07233b0a07c174.bindPopup(popup_cf73f9ff5c7001309e4c361de843f286)
+        ;
+
+        
+    
+    
+                marker_1e76d487a4a0ac705d07233b0a07c174.setIcon(icon_e1106451166a278023091e740e7189c9);
+            
+    
+            var marker_63f89b8a898e042dac79a59ceaf5d135 = L.marker(
+                [40.879488, 14.330931],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_248d2503e3a0cc7708b4e2ca1d2e1467 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8f8c2db8ecc79bd4e62e8d072f7e83c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fdaff5e9351e9e6cd643d6b996ac624 = $(`<div id="html_5fdaff5e9351e9e6cd643d6b996ac624" style="width: 100.0%; height: 100.0%;">     <b>CIARAMELLA TRUCK S.R.L.</b><br>     Distanza: 219.03 km<br>     Durata: 138.1 min     </div>`)[0];
+                popup_d8f8c2db8ecc79bd4e62e8d072f7e83c.setContent(html_5fdaff5e9351e9e6cd643d6b996ac624);
+            
+        
+
+        marker_63f89b8a898e042dac79a59ceaf5d135.bindPopup(popup_d8f8c2db8ecc79bd4e62e8d072f7e83c)
+        ;
+
+        
+    
+    
+                marker_63f89b8a898e042dac79a59ceaf5d135.setIcon(icon_248d2503e3a0cc7708b4e2ca1d2e1467);
+            
+    
+            var marker_bda5261036d7c7c577fa4ae8e085ee37 = L.marker(
+                [40.887123, 14.335304],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_10847fbdcfd2fe3df60663434e916375 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bba49561a6d43b5ed88a797c2ac3ecc6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81d753f31a7074beae69ae9d7ab35c96 = $(`<div id="html_81d753f31a7074beae69ae9d7ab35c96" style="width: 100.0%; height: 100.0%;">     <b>VFM TECHNIK S.R.L.</b><br>     Distanza: 218.61 km<br>     Durata: 137.5 min     </div>`)[0];
+                popup_bba49561a6d43b5ed88a797c2ac3ecc6.setContent(html_81d753f31a7074beae69ae9d7ab35c96);
+            
+        
+
+        marker_bda5261036d7c7c577fa4ae8e085ee37.bindPopup(popup_bba49561a6d43b5ed88a797c2ac3ecc6)
+        ;
+
+        
+    
+    
+                marker_bda5261036d7c7c577fa4ae8e085ee37.setIcon(icon_10847fbdcfd2fe3df60663434e916375);
+            
+    
+            var marker_ca7c817a6a02f19cc595c899fd792fda = L.marker(
+                [45.008719, 7.662364],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_12729ffa7854a959c4a1e04f06d29edb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f55e18043179b6079dc07bba808f706b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4187bad25d44ef816d26b52fc77c2ef0 = $(`<div id="html_4187bad25d44ef816d26b52fc77c2ef0" style="width: 100.0%; height: 100.0%;">     <b>D&D TRUCK SRL</b><br>     Distanza: 685.14 km<br>     Durata: 393.4 min     </div>`)[0];
+                popup_f55e18043179b6079dc07bba808f706b.setContent(html_4187bad25d44ef816d26b52fc77c2ef0);
+            
+        
+
+        marker_ca7c817a6a02f19cc595c899fd792fda.bindPopup(popup_f55e18043179b6079dc07bba808f706b)
+        ;
+
+        
+    
+    
+                marker_ca7c817a6a02f19cc595c899fd792fda.setIcon(icon_12729ffa7854a959c4a1e04f06d29edb);
+            
+    
+            var marker_6aadeb0a23cb581b2b9e224ff449ae4f = L.marker(
+                [45.0197, 9.754683],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_37e40cc6a533f31c2daf990645055cb0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4115fe444c275065185a09ce3e2d6893 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa93fb62b6f86004bbb9532c2581ce64 = $(`<div id="html_fa93fb62b6f86004bbb9532c2581ce64" style="width: 100.0%; height: 100.0%;">     <b>WLF TRUCKS SRL</b><br>     Distanza: 509.03 km<br>     Durata: 293.4 min     </div>`)[0];
+                popup_4115fe444c275065185a09ce3e2d6893.setContent(html_fa93fb62b6f86004bbb9532c2581ce64);
+            
+        
+
+        marker_6aadeb0a23cb581b2b9e224ff449ae4f.bindPopup(popup_4115fe444c275065185a09ce3e2d6893)
+        ;
+
+        
+    
+    
+                marker_6aadeb0a23cb581b2b9e224ff449ae4f.setIcon(icon_37e40cc6a533f31c2daf990645055cb0);
+            
+    
+            var marker_286e1ae60c0393691ac805d988d1873a = L.marker(
+                [46.008301, 13.121365],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_4a5cfc1967428458b40997f4bc06f120 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_81bfd1dba0bfe7d46bcda485827c255b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72f5a89087c54cd6ac4e57c71411f834 = $(`<div id="html_72f5a89087c54cd6ac4e57c71411f834" style="width: 100.0%; height: 100.0%;">     <b>EUROMOTORI SRL</b><br>     Distanza: 643.2 km<br>     Durata: 368.7 min     </div>`)[0];
+                popup_81bfd1dba0bfe7d46bcda485827c255b.setContent(html_72f5a89087c54cd6ac4e57c71411f834);
+            
+        
+
+        marker_286e1ae60c0393691ac805d988d1873a.bindPopup(popup_81bfd1dba0bfe7d46bcda485827c255b)
+        ;
+
+        
+    
+    
+                marker_286e1ae60c0393691ac805d988d1873a.setIcon(icon_4a5cfc1967428458b40997f4bc06f120);
+            
+    
+            var marker_88217174ec2546f2d88d74957852e3c8 = L.marker(
+                [45.639158, 9.542254],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_5932fc4dbb58039e8b2e4a1205a0f5d4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1d2a0d7e0df9e225a8040229c6eb7fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a35272540d5ec3b0d2b1e932757ef324 = $(`<div id="html_a35272540d5ec3b0d2b1e932757ef324" style="width: 100.0%; height: 100.0%;">     <b>LODOTRUCK SRL</b><br>     Distanza: 599.58 km<br>     Durata: 341.1 min     </div>`)[0];
+                popup_c1d2a0d7e0df9e225a8040229c6eb7fa.setContent(html_a35272540d5ec3b0d2b1e932757ef324);
+            
+        
+
+        marker_88217174ec2546f2d88d74957852e3c8.bindPopup(popup_c1d2a0d7e0df9e225a8040229c6eb7fa)
+        ;
+
+        
+    
+    
+                marker_88217174ec2546f2d88d74957852e3c8.setIcon(icon_5932fc4dbb58039e8b2e4a1205a0f5d4);
+            
+    
+            var marker_d29b72b43f8c9972720833803c27fec7 = L.marker(
+                [40.901284, 14.264089],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_b3c9f26813374f5c37ac76e7293db163 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9bcee885431ace00abf280657b85a02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c44b6e5eea1b77845c6426798d019fba = $(`<div id="html_c44b6e5eea1b77845c6426798d019fba" style="width: 100.0%; height: 100.0%;">     <b>DOMENICO TRUCK SRL</b><br>     Distanza: 219.88 km<br>     Durata: 136.6 min     </div>`)[0];
+                popup_a9bcee885431ace00abf280657b85a02.setContent(html_c44b6e5eea1b77845c6426798d019fba);
+            
+        
+
+        marker_d29b72b43f8c9972720833803c27fec7.bindPopup(popup_a9bcee885431ace00abf280657b85a02)
+        ;
+
+        
+    
+    
+                marker_d29b72b43f8c9972720833803c27fec7.setIcon(icon_b3c9f26813374f5c37ac76e7293db163);
+            
+    
+            var marker_46c756f504265cc31b3c4fa366c45303 = L.marker(
+                [45.593827, 11.638759],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_0e200ac9fa1d17e7cecf90f71005bc91 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3aaa9764d33bdbe605306f22b027448d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fbab71fec1d56fe899a8c44b31efa16 = $(`<div id="html_5fbab71fec1d56fe899a8c44b31efa16" style="width: 100.0%; height: 100.0%;">     <b>ATLANTE SRL</b><br>     Distanza: 523.09 km<br>     Durata: 306.4 min     </div>`)[0];
+                popup_3aaa9764d33bdbe605306f22b027448d.setContent(html_5fbab71fec1d56fe899a8c44b31efa16);
+            
+        
+
+        marker_46c756f504265cc31b3c4fa366c45303.bindPopup(popup_3aaa9764d33bdbe605306f22b027448d)
+        ;
+
+        
+    
+    
+                marker_46c756f504265cc31b3c4fa366c45303.setIcon(icon_0e200ac9fa1d17e7cecf90f71005bc91);
+            
+    
+            var marker_989f131de8ad30794b02a7ddbc444103 = L.marker(
+                [42.195012, 14.473214],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a0e1eaf2001233ce52b24f81e6c7b69e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd559f44e1362c03478c9885c5b8323d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a9f57dbc3eb028ec19fe424f672bcb5 = $(`<div id="html_8a9f57dbc3eb028ec19fe424f672bcb5" style="width: 100.0%; height: 100.0%;">     <b>NOVAMEC SRL</b><br>     Distanza: 246.16 km<br>     Durata: 146.6 min     </div>`)[0];
+                popup_dd559f44e1362c03478c9885c5b8323d.setContent(html_8a9f57dbc3eb028ec19fe424f672bcb5);
+            
+        
+
+        marker_989f131de8ad30794b02a7ddbc444103.bindPopup(popup_dd559f44e1362c03478c9885c5b8323d)
+        ;
+
+        
+    
+    
+                marker_989f131de8ad30794b02a7ddbc444103.setIcon(icon_a0e1eaf2001233ce52b24f81e6c7b69e);
+            
+    
+            var marker_481d35c2079da45656e3ad1792ad3bc3 = L.marker(
+                [39.260179, 9.076266],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a91d9a5ef71aacaa79e4b7f1bea6f8ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b84962f6b604c00cf078039cd29b3bef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_188bcd606a0c323323e40efc1fd432e5 = $(`<div id="html_188bcd606a0c323323e40efc1fd432e5" style="width: 100.0%; height: 100.0%;">     <b>OFFICINA CARVI SRL</b><br>     Distanza: 626.46 km<br>     Durata: 886.8 min     </div>`)[0];
+                popup_b84962f6b604c00cf078039cd29b3bef.setContent(html_188bcd606a0c323323e40efc1fd432e5);
+            
+        
+
+        marker_481d35c2079da45656e3ad1792ad3bc3.bindPopup(popup_b84962f6b604c00cf078039cd29b3bef)
+        ;
+
+        
+    
+    
+                marker_481d35c2079da45656e3ad1792ad3bc3.setIcon(icon_a91d9a5ef71aacaa79e4b7f1bea6f8ad);
+            
+    
+            var marker_f0c0aae438395cfa5557e25d5a2958a5 = L.marker(
+                [46.161068, 9.786306],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_7defb57366c178128c0dc37e93c75fc1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d117b5ba16b17b7769a693fbe611eeb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f721c2c24d6b10f4ad1ec539cc293b1 = $(`<div id="html_5f721c2c24d6b10f4ad1ec539cc293b1" style="width: 100.0%; height: 100.0%;">     <b>VIVILA SRL</b><br>     Distanza: 693.44 km<br>     Durata: 430.8 min     </div>`)[0];
+                popup_d117b5ba16b17b7769a693fbe611eeb2.setContent(html_5f721c2c24d6b10f4ad1ec539cc293b1);
+            
+        
+
+        marker_f0c0aae438395cfa5557e25d5a2958a5.bindPopup(popup_d117b5ba16b17b7769a693fbe611eeb2)
+        ;
+
+        
+    
+    
+                marker_f0c0aae438395cfa5557e25d5a2958a5.setIcon(icon_7defb57366c178128c0dc37e93c75fc1);
+            
+    
+            var marker_8b71f808c5af10ce48d064ed62b7388d = L.marker(
+                [40.376616, 17.656246],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_0031574d25aec2a0a23b4eefc6f6b1c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39cb4849b142091563069c7b85e0b289 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48584ddb41de3456fdeb483c1ea1fcf0 = $(`<div id="html_48584ddb41de3456fdeb483c1ea1fcf0" style="width: 100.0%; height: 100.0%;">     <b>OFFICINA NOTARNICOLA S.R.L.S.</b><br>     Distanza: 631.94 km<br>     Durata: 384.9 min     </div>`)[0];
+                popup_39cb4849b142091563069c7b85e0b289.setContent(html_48584ddb41de3456fdeb483c1ea1fcf0);
+            
+        
+
+        marker_8b71f808c5af10ce48d064ed62b7388d.bindPopup(popup_39cb4849b142091563069c7b85e0b289)
+        ;
+
+        
+    
+    
+                marker_8b71f808c5af10ce48d064ed62b7388d.setIcon(icon_0031574d25aec2a0a23b4eefc6f6b1c2);
+            
+    
+            var marker_ea0c0c5f5d0888c2356c769a528efc58 = L.marker(
+                [45.415463, 11.157126],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a5d21203ca452eccab77ed1e893555ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b63b599661d03aaa79cd3bad66e6af33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38f63ed792e6ddf566ddab94f05d5ab5 = $(`<div id="html_38f63ed792e6ddf566ddab94f05d5ab5" style="width: 100.0%; height: 100.0%;">     <b>WF TRUCKS SERVICE SRL</b><br>     Distanza: 512.96 km<br>     Durata: 300.7 min     </div>`)[0];
+                popup_b63b599661d03aaa79cd3bad66e6af33.setContent(html_38f63ed792e6ddf566ddab94f05d5ab5);
+            
+        
+
+        marker_ea0c0c5f5d0888c2356c769a528efc58.bindPopup(popup_b63b599661d03aaa79cd3bad66e6af33)
+        ;
+
+        
+    
+    
+                marker_ea0c0c5f5d0888c2356c769a528efc58.setIcon(icon_a5d21203ca452eccab77ed1e893555ae);
+            
+    
+            var marker_e45db034e9f66164b07a4b906677dc7c = L.marker(
+                [41.894798, 12.37797],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_4f6a6ce62899ba5c28d463d8a25e4bdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c65a470fca94b9b3b9dce7f9d5b4723b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_930f3825d662344704f6f0b37803aff8 = $(`<div id="html_930f3825d662344704f6f0b37803aff8" style="width: 100.0%; height: 100.0%;">     <b>AURELIA AUTOCARRI SRL</b><br>     Distanza: 14.39 km<br>     Durata: 25.5 min     </div>`)[0];
+                popup_c65a470fca94b9b3b9dce7f9d5b4723b.setContent(html_930f3825d662344704f6f0b37803aff8);
+            
+        
+
+        marker_e45db034e9f66164b07a4b906677dc7c.bindPopup(popup_c65a470fca94b9b3b9dce7f9d5b4723b)
+        ;
+
+        
+    
+    
+                marker_e45db034e9f66164b07a4b906677dc7c.setIcon(icon_4f6a6ce62899ba5c28d463d8a25e4bdf);
+            
+    
+            var marker_cd16e7bde663ec2a92e8d13bda6dccda = L.marker(
+                [45.637411, 9.851789],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_5d494aec36bd6884ee4d7bd8bc642eda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c239f9aa0cd8d3c8f7578aadbdab3860 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38d41100c21bf7bb13db53e3e42ef830 = $(`<div id="html_38d41100c21bf7bb13db53e3e42ef830" style="width: 100.0%; height: 100.0%;">     <b>D AND G SERVICE SRL</b><br>     Distanza: 581.93 km<br>     Durata: 329.8 min     </div>`)[0];
+                popup_c239f9aa0cd8d3c8f7578aadbdab3860.setContent(html_38d41100c21bf7bb13db53e3e42ef830);
+            
+        
+
+        marker_cd16e7bde663ec2a92e8d13bda6dccda.bindPopup(popup_c239f9aa0cd8d3c8f7578aadbdab3860)
+        ;
+
+        
+    
+    
+                marker_cd16e7bde663ec2a92e8d13bda6dccda.setIcon(icon_5d494aec36bd6884ee4d7bd8bc642eda);
+            
+    
+            var marker_52415b8017ea48e41199256ff418ff6e = L.marker(
+                [45.466209, 9.192287],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_f5264e604ecdc7f59633aaecac5a27e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e0190c5ffec6abd5388a3146b0afef10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b88fb4db3d55d51d2f03ce7ea6135f9e = $(`<div id="html_b88fb4db3d55d51d2f03ce7ea6135f9e" style="width: 100.0%; height: 100.0%;">     <b>D.A. TRADING SRL</b><br>     Distanza: 571.37 km<br>     Durata: 336.0 min     </div>`)[0];
+                popup_e0190c5ffec6abd5388a3146b0afef10.setContent(html_b88fb4db3d55d51d2f03ce7ea6135f9e);
+            
+        
+
+        marker_52415b8017ea48e41199256ff418ff6e.bindPopup(popup_e0190c5ffec6abd5388a3146b0afef10)
+        ;
+
+        
+    
+    
+                marker_52415b8017ea48e41199256ff418ff6e.setIcon(icon_f5264e604ecdc7f59633aaecac5a27e8);
+            
+    
+            var marker_5a484738a12b7b9c1aa68649151ed363 = L.marker(
+                [45.358772, 9.315641],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_da9a3bcc2c85a593381ec88221da8441 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ae8bb6686b2d3a80cd8b5e043c70709 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49510b695850132aaea626ed325d4001 = $(`<div id="html_49510b695850132aaea626ed325d4001" style="width: 100.0%; height: 100.0%;">     <b>PROCACCINI SRL</b><br>     Distanza: 554.6 km<br>     Durata: 312.3 min     </div>`)[0];
+                popup_3ae8bb6686b2d3a80cd8b5e043c70709.setContent(html_49510b695850132aaea626ed325d4001);
+            
+        
+
+        marker_5a484738a12b7b9c1aa68649151ed363.bindPopup(popup_3ae8bb6686b2d3a80cd8b5e043c70709)
+        ;
+
+        
+    
+    
+                marker_5a484738a12b7b9c1aa68649151ed363.setIcon(icon_da9a3bcc2c85a593381ec88221da8441);
+            
+    
+            var marker_4e7a4b22bca88003d9b7d04b9cda4457 = L.marker(
+                [45.618915, 9.647182],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_9ab1aafabf6903e3df10ad9a2d6fa267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_31368ac33e69eaacd4b5feea9f37d00f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15608356281f5d9e3a4adb0bdf99b7c8 = $(`<div id="html_15608356281f5d9e3a4adb0bdf99b7c8" style="width: 100.0%; height: 100.0%;">     <b>CI.ZETA SRL</b><br>     Distanza: 605.42 km<br>     Durata: 344.5 min     </div>`)[0];
+                popup_31368ac33e69eaacd4b5feea9f37d00f.setContent(html_15608356281f5d9e3a4adb0bdf99b7c8);
+            
+        
+
+        marker_4e7a4b22bca88003d9b7d04b9cda4457.bindPopup(popup_31368ac33e69eaacd4b5feea9f37d00f)
+        ;
+
+        
+    
+    
+                marker_4e7a4b22bca88003d9b7d04b9cda4457.setIcon(icon_9ab1aafabf6903e3df10ad9a2d6fa267);
+            
+    
+            var marker_f7dc4d5b98931b6d2243d2516932356f = L.marker(
+                [41.134331, 16.412298],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_6e270e1e3781849ffb2b37c2def9fecc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8156e513324b24ce567715f19cfd5696 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ca42c93037d9b32c558f5ebd20c8c00 = $(`<div id="html_4ca42c93037d9b32c558f5ebd20c8c00" style="width: 100.0%; height: 100.0%;">     <b>ALTAMURA SERVICE SRL</b><br>     Distanza: 469.14 km<br>     Durata: 266.0 min     </div>`)[0];
+                popup_8156e513324b24ce567715f19cfd5696.setContent(html_4ca42c93037d9b32c558f5ebd20c8c00);
+            
+        
+
+        marker_f7dc4d5b98931b6d2243d2516932356f.bindPopup(popup_8156e513324b24ce567715f19cfd5696)
+        ;
+
+        
+    
+    
+                marker_f7dc4d5b98931b6d2243d2516932356f.setIcon(icon_6e270e1e3781849ffb2b37c2def9fecc);
+            
+    
+            var marker_e48abbf0c79f19841b2c8263ba98c847 = L.marker(
+                [40.946097, 14.507942],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_ce181a60cd819c5e273f25ee66f67e2f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17c9feea2bdb257ebc6031ba2495d491 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_632baaee258ea9373e48e6968a5e592d = $(`<div id="html_632baaee258ea9373e48e6968a5e592d" style="width: 100.0%; height: 100.0%;">     <b>AD TRUCK SRL</b><br>     Distanza: 222.77 km<br>     Durata: 139.4 min     </div>`)[0];
+                popup_17c9feea2bdb257ebc6031ba2495d491.setContent(html_632baaee258ea9373e48e6968a5e592d);
+            
+        
+
+        marker_e48abbf0c79f19841b2c8263ba98c847.bindPopup(popup_17c9feea2bdb257ebc6031ba2495d491)
+        ;
+
+        
+    
+    
+                marker_e48abbf0c79f19841b2c8263ba98c847.setIcon(icon_ce181a60cd819c5e273f25ee66f67e2f);
+            
+    
+            var marker_69f3da0ccdc5f711c0eb426ea32cbe05 = L.marker(
+                [40.649279, 14.852878],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_345aceb491d4e50fa6c7e89a162f915e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62b00f2b7aebb50253e5b7708be190de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15a2473d0f0e572e064490798fc5427c = $(`<div id="html_15a2473d0f0e572e064490798fc5427c" style="width: 100.0%; height: 100.0%;">     <b>EUROCARRI SRL</b><br>     Distanza: 275.25 km<br>     Durata: 167.8 min     </div>`)[0];
+                popup_62b00f2b7aebb50253e5b7708be190de.setContent(html_15a2473d0f0e572e064490798fc5427c);
+            
+        
+
+        marker_69f3da0ccdc5f711c0eb426ea32cbe05.bindPopup(popup_62b00f2b7aebb50253e5b7708be190de)
+        ;
+
+        
+    
+    
+                marker_69f3da0ccdc5f711c0eb426ea32cbe05.setIcon(icon_345aceb491d4e50fa6c7e89a162f915e);
+            
+    
+            var marker_5ad3aa56369f87284f345ee413a4f954 = L.marker(
+                [43.552513, 11.555516],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_0f059f598579024f44d39348fb4d71a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_239982e2ff175099b822e333e4e510e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e41d913fbafd6c46305cf3bbcfb43a00 = $(`<div id="html_e41d913fbafd6c46305cf3bbcfb43a00" style="width: 100.0%; height: 100.0%;">     <b>MB.L. S.R.L.</b><br>     Distanza: 231.24 km<br>     Durata: 141.0 min     </div>`)[0];
+                popup_239982e2ff175099b822e333e4e510e2.setContent(html_e41d913fbafd6c46305cf3bbcfb43a00);
+            
+        
+
+        marker_5ad3aa56369f87284f345ee413a4f954.bindPopup(popup_239982e2ff175099b822e333e4e510e2)
+        ;
+
+        
+    
+    
+                marker_5ad3aa56369f87284f345ee413a4f954.setIcon(icon_0f059f598579024f44d39348fb4d71a7);
+            
+    
+            var marker_ab7b07ae923241b84995b5cecf053896 = L.marker(
+                [45.99468, 13.271769],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_bb16b883da9b531c8837684b26a66895 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_83feb94baab5081ffa87ace0becfeff0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b49a860bfb7dca136119caaf19d4c4d7 = $(`<div id="html_b49a860bfb7dca136119caaf19d4c4d7" style="width: 100.0%; height: 100.0%;">     <b>OFFICINE F.V.G.</b><br>     Distanza: 640.44 km<br>     Durata: 365.4 min     </div>`)[0];
+                popup_83feb94baab5081ffa87ace0becfeff0.setContent(html_b49a860bfb7dca136119caaf19d4c4d7);
+            
+        
+
+        marker_ab7b07ae923241b84995b5cecf053896.bindPopup(popup_83feb94baab5081ffa87ace0becfeff0)
+        ;
+
+        
+    
+    
+                marker_ab7b07ae923241b84995b5cecf053896.setIcon(icon_bb16b883da9b531c8837684b26a66895);
+            
+    
+            var marker_4443d1c8a21f97a820abcdc8c22a1591 = L.marker(
+                [43.135698, 12.265865],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a9cfb608cc04dea05be0a366cb23bd9e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12fbe36742126fd956442db8a47ebd49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_815e8f00bf30f574f73da7beb894bbc3 = $(`<div id="html_815e8f00bf30f574f73da7beb894bbc3" style="width: 100.0%; height: 100.0%;">     <b>ROSSI S.R.L.</b><br>     Distanza: 183.06 km<br>     Durata: 137.4 min     </div>`)[0];
+                popup_12fbe36742126fd956442db8a47ebd49.setContent(html_815e8f00bf30f574f73da7beb894bbc3);
+            
+        
+
+        marker_4443d1c8a21f97a820abcdc8c22a1591.bindPopup(popup_12fbe36742126fd956442db8a47ebd49)
+        ;
+
+        
+    
+    
+                marker_4443d1c8a21f97a820abcdc8c22a1591.setIcon(icon_a9cfb608cc04dea05be0a366cb23bd9e);
+            
+    
+            var marker_7ff2ce63650f412bf9d1fbe6ce4e9c49 = L.marker(
+                [43.829996, 11.124917],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_c6c1e44da5afceab0418678f3049c9f3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf59566d6de80ca9db08b985d88b487a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0101366279b468177f8a9c8c221233a1 = $(`<div id="html_0101366279b468177f8a9c8c221233a1" style="width: 100.0%; height: 100.0%;">     <b>TRUCK ITALIA SPA</b><br>     Distanza: 295.06 km<br>     Durata: 182.0 min     </div>`)[0];
+                popup_cf59566d6de80ca9db08b985d88b487a.setContent(html_0101366279b468177f8a9c8c221233a1);
+            
+        
+
+        marker_7ff2ce63650f412bf9d1fbe6ce4e9c49.bindPopup(popup_cf59566d6de80ca9db08b985d88b487a)
+        ;
+
+        
+    
+    
+                marker_7ff2ce63650f412bf9d1fbe6ce4e9c49.setIcon(icon_c6c1e44da5afceab0418678f3049c9f3);
+            
+    
+            var marker_7be1919ca307318fc467a558668181e2 = L.marker(
+                [43.216366, 11.808273],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a3f82e02056e1184fe6a507c081c7f6e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_baf858befacd89a007955861c39a5826 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b55053ea1077043ad912d7736fae431d = $(`<div id="html_b55053ea1077043ad912d7736fae431d" style="width: 100.0%; height: 100.0%;">     <b>TRUCK ITALIA SPA</b><br>     Distanza: 182.58 km<br>     Durata: 116.5 min     </div>`)[0];
+                popup_baf858befacd89a007955861c39a5826.setContent(html_b55053ea1077043ad912d7736fae431d);
+            
+        
+
+        marker_7be1919ca307318fc467a558668181e2.bindPopup(popup_baf858befacd89a007955861c39a5826)
+        ;
+
+        
+    
+    
+                marker_7be1919ca307318fc467a558668181e2.setIcon(icon_a3f82e02056e1184fe6a507c081c7f6e);
+            
+    
+            var marker_f0246e7f93e495dfd19750bff08fd7f6 = L.marker(
+                [43.589705, 10.347485],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_60a2937f42be79cdb1c6cf72e1c11d1d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_515c9a75b3ec093b349a7ba1abb63fa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd7120446e7e941ef0d5bf2231c4f370 = $(`<div id="html_cd7120446e7e941ef0d5bf2231c4f370" style="width: 100.0%; height: 100.0%;">     <b>TRUCK ITALIA SPA</b><br>     Distanza: 359.52 km<br>     Durata: 226.6 min     </div>`)[0];
+                popup_515c9a75b3ec093b349a7ba1abb63fa9.setContent(html_cd7120446e7e941ef0d5bf2231c4f370);
+            
+        
+
+        marker_f0246e7f93e495dfd19750bff08fd7f6.bindPopup(popup_515c9a75b3ec093b349a7ba1abb63fa9)
+        ;
+
+        
+    
+    
+                marker_f0246e7f93e495dfd19750bff08fd7f6.setIcon(icon_60a2937f42be79cdb1c6cf72e1c11d1d);
+            
+    
+            var marker_6e932068d1cdfdae43b8284b8840f2e2 = L.marker(
+                [44.684991, 8.001605],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_3dbab79e96f33b5e36071a9714881cee = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_148df012f5e32d88a266413bae3d5a0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb49644aa090d9ad0005ab7c5983d0c7 = $(`<div id="html_cb49644aa090d9ad0005ab7c5983d0c7" style="width: 100.0%; height: 100.0%;">     <b>ALPISERVICE SRL</b><br>     Distanza: 667.81 km<br>     Durata: 386.2 min     </div>`)[0];
+                popup_148df012f5e32d88a266413bae3d5a0f.setContent(html_cb49644aa090d9ad0005ab7c5983d0c7);
+            
+        
+
+        marker_6e932068d1cdfdae43b8284b8840f2e2.bindPopup(popup_148df012f5e32d88a266413bae3d5a0f)
+        ;
+
+        
+    
+    
+                marker_6e932068d1cdfdae43b8284b8840f2e2.setIcon(icon_3dbab79e96f33b5e36071a9714881cee);
+            
+    
+            var marker_6310c11603dbd9f59809be2fdd068bbe = L.marker(
+                [45.739473, 9.421921],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_207e119ddeac458151418984401ce6e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2505d7fed72c6bbb6499091b69f3a694 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cc46f1078792d6672d749cc8dcd942a = $(`<div id="html_5cc46f1078792d6672d749cc8dcd942a" style="width: 100.0%; height: 100.0%;">     <b>LODOTRUCK SRL</b><br>     Distanza: 607.3 km<br>     Durata: 365.0 min     </div>`)[0];
+                popup_2505d7fed72c6bbb6499091b69f3a694.setContent(html_5cc46f1078792d6672d749cc8dcd942a);
+            
+        
+
+        marker_6310c11603dbd9f59809be2fdd068bbe.bindPopup(popup_2505d7fed72c6bbb6499091b69f3a694)
+        ;
+
+        
+    
+    
+                marker_6310c11603dbd9f59809be2fdd068bbe.setIcon(icon_207e119ddeac458151418984401ce6e8);
+            
+    
+            var marker_b3592f5677e750089f2dbd4ab4abfd3b = L.marker(
+                [45.395241, 11.957632],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_873d51341dcafd6c413b9ecf9cea5ece = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_339a2913c668ff984375911c22a5d2ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cd11842d25482457cccd3713f2a7188 = $(`<div id="html_4cd11842d25482457cccd3713f2a7188" style="width: 100.0%; height: 100.0%;">     <b>ATLANTE INDUSTRIALI</b><br>     Distanza: 493.13 km<br>     Durata: 285.6 min     </div>`)[0];
+                popup_339a2913c668ff984375911c22a5d2ae.setContent(html_4cd11842d25482457cccd3713f2a7188);
+            
+        
+
+        marker_b3592f5677e750089f2dbd4ab4abfd3b.bindPopup(popup_339a2913c668ff984375911c22a5d2ae)
+        ;
+
+        
+    
+    
+                marker_b3592f5677e750089f2dbd4ab4abfd3b.setIcon(icon_873d51341dcafd6c413b9ecf9cea5ece);
+            
+    
+            var marker_7737bbf16dd230a9340d85369fea539b = L.marker(
+                [45.41266, 10.865138],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_e478610509c460b52ccb2f2e1bb996a6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e1a8f34353d937345320a56fdbe603b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c03d679ceb5074f4ebdc59cb4de0bda7 = $(`<div id="html_c03d679ceb5074f4ebdc59cb4de0bda7" style="width: 100.0%; height: 100.0%;">     <b>ATLANTE INDUSTRIALI</b><br>     Distanza: 498.97 km<br>     Durata: 286.9 min     </div>`)[0];
+                popup_6e1a8f34353d937345320a56fdbe603b.setContent(html_c03d679ceb5074f4ebdc59cb4de0bda7);
+            
+        
+
+        marker_7737bbf16dd230a9340d85369fea539b.bindPopup(popup_6e1a8f34353d937345320a56fdbe603b)
+        ;
+
+        
+    
+    
+                marker_7737bbf16dd230a9340d85369fea539b.setIcon(icon_e478610509c460b52ccb2f2e1bb996a6);
+            
+    
+            var marker_95d9fa973c0c801dae7bb3b9043a3976 = L.marker(
+                [41.019192, 14.366295],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_aac2602277c5d46d1954a713b69c9db1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb11415394a6caf38adf8985a4112957 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c8cbfb57bc80fb67d691d6191cd6012 = $(`<div id="html_1c8cbfb57bc80fb67d691d6191cd6012" style="width: 100.0%; height: 100.0%;">     <b>MP TRUCK SERVICE SRL</b><br>     Distanza: 209.3 km<br>     Durata: 135.0 min     </div>`)[0];
+                popup_fb11415394a6caf38adf8985a4112957.setContent(html_1c8cbfb57bc80fb67d691d6191cd6012);
+            
+        
+
+        marker_95d9fa973c0c801dae7bb3b9043a3976.bindPopup(popup_fb11415394a6caf38adf8985a4112957)
+        ;
+
+        
+    
+    
+                marker_95d9fa973c0c801dae7bb3b9043a3976.setIcon(icon_aac2602277c5d46d1954a713b69c9db1);
+            
+    
+            var marker_c6bb3a96e1ccf90c1212c5ddc4b4d064 = L.marker(
+                [42.542893, 12.524739],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_74544416076fc746f2e6699a3d1d9cb1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08d9dbb18879f39888f80660d4f032ec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b72cb8e7e1ed9bd69b6910b1339189e = $(`<div id="html_0b72cb8e7e1ed9bd69b6910b1339189e" style="width: 100.0%; height: 100.0%;">     <b>ROSSI SRL</b><br>     Distanza: 91.77 km<br>     Durata: 74.7 min     </div>`)[0];
+                popup_08d9dbb18879f39888f80660d4f032ec.setContent(html_0b72cb8e7e1ed9bd69b6910b1339189e);
+            
+        
+
+        marker_c6bb3a96e1ccf90c1212c5ddc4b4d064.bindPopup(popup_08d9dbb18879f39888f80660d4f032ec)
+        ;
+
+        
+    
+    
+                marker_c6bb3a96e1ccf90c1212c5ddc4b4d064.setIcon(icon_74544416076fc746f2e6699a3d1d9cb1);
+            
+    
+            var marker_8d86a75446d07c98de2c261c003ed86f = L.marker(
+                [45.432826, 8.708424],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_b056acd3d4b5f8434b35a700c3d1d5b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_469a035adbdcd77244d99eba768a924b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2251710a13ad5030de28978c32652fc = $(`<div id="html_c2251710a13ad5030de28978c32652fc" style="width: 100.0%; height: 100.0%;">     <b>INTERSERVICE S.P.A</b><br>     Distanza: 624.64 km<br>     Durata: 364.0 min     </div>`)[0];
+                popup_469a035adbdcd77244d99eba768a924b.setContent(html_c2251710a13ad5030de28978c32652fc);
+            
+        
+
+        marker_8d86a75446d07c98de2c261c003ed86f.bindPopup(popup_469a035adbdcd77244d99eba768a924b)
+        ;
+
+        
+    
+    
+                marker_8d86a75446d07c98de2c261c003ed86f.setIcon(icon_b056acd3d4b5f8434b35a700c3d1d5b4);
+            
+    
+            var marker_f2aea815fdfc06ce9e6efe6c8cbf1274 = L.marker(
+                [46.476807, 11.324735],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_c17c2aa647dd0488a588d918fafae841 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_185e4a6e4fed0c96def6e010db3e8d6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc1a85ae37f7ec5e9cdcfaf635d859c9 = $(`<div id="html_dc1a85ae37f7ec5e9cdcfaf635d859c9" style="width: 100.0%; height: 100.0%;">     <b>CAVI DIESEL SPA</b><br>     Distanza: 635.34 km<br>     Durata: 354.8 min     </div>`)[0];
+                popup_185e4a6e4fed0c96def6e010db3e8d6b.setContent(html_dc1a85ae37f7ec5e9cdcfaf635d859c9);
+            
+        
+
+        marker_f2aea815fdfc06ce9e6efe6c8cbf1274.bindPopup(popup_185e4a6e4fed0c96def6e010db3e8d6b)
+        ;
+
+        
+    
+    
+                marker_f2aea815fdfc06ce9e6efe6c8cbf1274.setIcon(icon_c17c2aa647dd0488a588d918fafae841);
+            
+    
+            var marker_4c43883f0ca85f5a90c4570901eafe8c = L.marker(
+                [38.094911, 13.399726],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_61bb76febb09b19814cc38a55262aad7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_28aadce7cd6c2dcdf60fb4eb1b161d3a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7b89d1674ad9343c628fdd02226c1d9 = $(`<div id="html_a7b89d1674ad9343c628fdd02226c1d9" style="width: 100.0%; height: 100.0%;">     <b>COMER SUD SPA</b><br>     Distanza: 917.79 km<br>     Durata: 652.6 min     </div>`)[0];
+                popup_28aadce7cd6c2dcdf60fb4eb1b161d3a.setContent(html_a7b89d1674ad9343c628fdd02226c1d9);
+            
+        
+
+        marker_4c43883f0ca85f5a90c4570901eafe8c.bindPopup(popup_28aadce7cd6c2dcdf60fb4eb1b161d3a)
+        ;
+
+        
+    
+    
+                marker_4c43883f0ca85f5a90c4570901eafe8c.setIcon(icon_61bb76febb09b19814cc38a55262aad7);
+            
+    
+            var marker_ced95974f32e70227390ac024dcec8a6 = L.marker(
+                [44.92723, 7.62583],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_0f5e5cf9cf03b353ae0df68b15f4f45c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db6c5c2f4f1eaa9e2860248d65f9382e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77805d2ff83485f4037b8a35ecd6c6f7 = $(`<div id="html_77805d2ff83485f4037b8a35ecd6c6f7" style="width: 100.0%; height: 100.0%;">     <b>D&D TRUCKS SRL</b><br>     Distanza: 688.32 km<br>     Durata: 396.6 min     </div>`)[0];
+                popup_db6c5c2f4f1eaa9e2860248d65f9382e.setContent(html_77805d2ff83485f4037b8a35ecd6c6f7);
+            
+        
+
+        marker_ced95974f32e70227390ac024dcec8a6.bindPopup(popup_db6c5c2f4f1eaa9e2860248d65f9382e)
+        ;
+
+        
+    
+    
+                marker_ced95974f32e70227390ac024dcec8a6.setIcon(icon_0f5e5cf9cf03b353ae0df68b15f4f45c);
+            
+    
+            var marker_d5485c9264ee77b5f29a099d17edf93b = L.marker(
+                [44.17172, 12.160608],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_647d2563163fc79110ce51b55fb58d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a01bc0dbf4b7810d267ee32255a23025 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11c4065befd30d8e0e47830006890981 = $(`<div id="html_11c4065befd30d8e0e47830006890981" style="width: 100.0%; height: 100.0%;">     <b>VIOCAR SPA</b><br>     Distanza: 323.85 km<br>     Durata: 244.1 min     </div>`)[0];
+                popup_a01bc0dbf4b7810d267ee32255a23025.setContent(html_11c4065befd30d8e0e47830006890981);
+            
+        
+
+        marker_d5485c9264ee77b5f29a099d17edf93b.bindPopup(popup_a01bc0dbf4b7810d267ee32255a23025)
+        ;
+
+        
+    
+    
+                marker_d5485c9264ee77b5f29a099d17edf93b.setIcon(icon_647d2563163fc79110ce51b55fb58d0d);
+            
+    
+            var marker_879610928812560c84d99d88b40cd8e1 = L.marker(
+                [41.726723, 13.113696],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_e7389584107b708e031622fd45773cd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56d2705992ffa4215cfa3ed204bbcf6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a366062e89319675b69646c7860747c1 = $(`<div id="html_a366062e89319675b69646c7860747c1" style="width: 100.0%; height: 100.0%;">     <b>ECOSISTEMA</b><br>     Distanza: 65.67 km<br>     Durata: 51.0 min     </div>`)[0];
+                popup_56d2705992ffa4215cfa3ed204bbcf6d.setContent(html_a366062e89319675b69646c7860747c1);
+            
+        
+
+        marker_879610928812560c84d99d88b40cd8e1.bindPopup(popup_56d2705992ffa4215cfa3ed204bbcf6d)
+        ;
+
+        
+    
+    
+                marker_879610928812560c84d99d88b40cd8e1.setIcon(icon_e7389584107b708e031622fd45773cd0);
+            
+    
+            var marker_b4bcc6d4d70f9c96cadf90cfa41d8458 = L.marker(
+                [45.39976, 9.128487],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_839cc63f89477b7c19aca0accbec22a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8398587093e88612482770ae90dfb2cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26ffa8cf1af00ac012676ed6f0365f83 = $(`<div id="html_26ffa8cf1af00ac012676ed6f0365f83" style="width: 100.0%; height: 100.0%;">     <b>CAVI DIESEL</b><br>     Distanza: 571.94 km<br>     Durata: 328.7 min     </div>`)[0];
+                popup_8398587093e88612482770ae90dfb2cb.setContent(html_26ffa8cf1af00ac012676ed6f0365f83);
+            
+        
+
+        marker_b4bcc6d4d70f9c96cadf90cfa41d8458.bindPopup(popup_8398587093e88612482770ae90dfb2cb)
+        ;
+
+        
+    
+    
+                marker_b4bcc6d4d70f9c96cadf90cfa41d8458.setIcon(icon_839cc63f89477b7c19aca0accbec22a4);
+            
+    
+            var marker_ddfb8601845fbf9d4a10225a19f5b3c3 = L.marker(
+                [42.906706, 13.890285],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_ff1f5b2b3074e28a8ff0c0658876120b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c189ca241e6f27a17c4bacdda1d921c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b5ad53ac677a2f4817e5abafb5fb834 = $(`<div id="html_0b5ad53ac677a2f4817e5abafb5fb834" style="width: 100.0%; height: 100.0%;">     <b>O.C.R.A.S. SRL</b><br>     Distanza: 214.2 km<br>     Durata: 143.0 min     </div>`)[0];
+                popup_c189ca241e6f27a17c4bacdda1d921c7.setContent(html_0b5ad53ac677a2f4817e5abafb5fb834);
+            
+        
+
+        marker_ddfb8601845fbf9d4a10225a19f5b3c3.bindPopup(popup_c189ca241e6f27a17c4bacdda1d921c7)
+        ;
+
+        
+    
+    
+                marker_ddfb8601845fbf9d4a10225a19f5b3c3.setIcon(icon_ff1f5b2b3074e28a8ff0c0658876120b);
+            
+    
+            var marker_d65bc3d61dd89a4c585950e10ed13a89 = L.marker(
+                [44.865098, 11.574415],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_3309ba7ea76d183008776719d271225e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_be9ecbf65e947eed5a39b83b3d9a62e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b842098efe49e4741ba863bf13002855 = $(`<div id="html_b842098efe49e4741ba863bf13002855" style="width: 100.0%; height: 100.0%;">     <b>ATLANTE SRL</b><br>     Distanza: 420.0 km<br>     Durata: 243.4 min     </div>`)[0];
+                popup_be9ecbf65e947eed5a39b83b3d9a62e9.setContent(html_b842098efe49e4741ba863bf13002855);
+            
+        
+
+        marker_d65bc3d61dd89a4c585950e10ed13a89.bindPopup(popup_be9ecbf65e947eed5a39b83b3d9a62e9)
+        ;
+
+        
+    
+    
+                marker_d65bc3d61dd89a4c585950e10ed13a89.setIcon(icon_3309ba7ea76d183008776719d271225e);
+            
+    
+            var marker_a862cfee9a71937f4e5b33e099461193 = L.marker(
+                [45.57602, 9.101158],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_79459b0d28165c90ceb045cbf0016b72 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf0801e342f49698adaca469f69393d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acb375dcf785d7161d0399a48a2c8268 = $(`<div id="html_acb375dcf785d7161d0399a48a2c8268" style="width: 100.0%; height: 100.0%;">     <b>D.A. TRADING SRL</b><br>     Distanza: 595.89 km<br>     Durata: 349.5 min     </div>`)[0];
+                popup_cf0801e342f49698adaca469f69393d4.setContent(html_acb375dcf785d7161d0399a48a2c8268);
+            
+        
+
+        marker_a862cfee9a71937f4e5b33e099461193.bindPopup(popup_cf0801e342f49698adaca469f69393d4)
+        ;
+
+        
+    
+    
+                marker_a862cfee9a71937f4e5b33e099461193.setIcon(icon_79459b0d28165c90ceb045cbf0016b72);
+            
+    
+            var marker_3efe8312669734c64c8d025f7dc6dba0 = L.marker(
+                [45.39976, 9.128487],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_c8e53f667541a428f3f0f3ce7dfa45f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b832cfbecf84e07688c59f2a3d4cc151 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fbeffd02c023d8c4baee9cdf1128e3e = $(`<div id="html_4fbeffd02c023d8c4baee9cdf1128e3e" style="width: 100.0%; height: 100.0%;">     <b>BTRUCKS SRL</b><br>     Distanza: 571.94 km<br>     Durata: 328.7 min     </div>`)[0];
+                popup_b832cfbecf84e07688c59f2a3d4cc151.setContent(html_4fbeffd02c023d8c4baee9cdf1128e3e);
+            
+        
+
+        marker_3efe8312669734c64c8d025f7dc6dba0.bindPopup(popup_b832cfbecf84e07688c59f2a3d4cc151)
+        ;
+
+        
+    
+    
+                marker_3efe8312669734c64c8d025f7dc6dba0.setIcon(icon_c8e53f667541a428f3f0f3ce7dfa45f7);
+            
+    
+            var marker_685cddcb8694c4732e5718eb91f8b7d4 = L.marker(
+                [40.885535, 14.348212],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_38c584b1d7491fc33ecd92a6fe8c923d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e2894899ace32736083c959892a6287 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_151685dc4d941793e9750d8f5c1a2e29 = $(`<div id="html_151685dc4d941793e9750d8f5c1a2e29" style="width: 100.0%; height: 100.0%;">     <b>VFM TECHNIK</b><br>     Distanza: 220.69 km<br>     Durata: 138.0 min     </div>`)[0];
+                popup_5e2894899ace32736083c959892a6287.setContent(html_151685dc4d941793e9750d8f5c1a2e29);
+            
+        
+
+        marker_685cddcb8694c4732e5718eb91f8b7d4.bindPopup(popup_5e2894899ace32736083c959892a6287)
+        ;
+
+        
+    
+    
+                marker_685cddcb8694c4732e5718eb91f8b7d4.setIcon(icon_38c584b1d7491fc33ecd92a6fe8c923d);
+            
+    
+            var marker_5aec0c2b357d15673d1592c4cc17ac76 = L.marker(
+                [40.862807, 14.365223],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a729d873fdb94e71995222b9fa2cfbe6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c11b7fe79d87d9d05af9343ff283fae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d050beb6a975a78ec7cb85fd84fa5239 = $(`<div id="html_d050beb6a975a78ec7cb85fd84fa5239" style="width: 100.0%; height: 100.0%;">     <b>AD TRUCK SRL C/O DSL</b><br>     Distanza: 222.92 km<br>     Durata: 138.2 min     </div>`)[0];
+                popup_5c11b7fe79d87d9d05af9343ff283fae.setContent(html_d050beb6a975a78ec7cb85fd84fa5239);
+            
+        
+
+        marker_5aec0c2b357d15673d1592c4cc17ac76.bindPopup(popup_5c11b7fe79d87d9d05af9343ff283fae)
+        ;
+
+        
+    
+    
+                marker_5aec0c2b357d15673d1592c4cc17ac76.setIcon(icon_a729d873fdb94e71995222b9fa2cfbe6);
+            
+    
+            var marker_2e577ccdb8dea6b364686796ddaed5d6 = L.marker(
+                [44.905352, 8.908742],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_a43e92d77f53967102fb295c2b7c691b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7765cdaf0e97daaade8aae837503c9f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6002a22d760be051fcdb3fe269f1d3a0 = $(`<div id="html_6002a22d760be051fcdb3fe269f1d3a0" style="width: 100.0%; height: 100.0%;">     <b>REBELLATO TRUCK SRL</b><br>     Distanza: 583.85 km<br>     Durata: 341.3 min     </div>`)[0];
+                popup_7765cdaf0e97daaade8aae837503c9f0.setContent(html_6002a22d760be051fcdb3fe269f1d3a0);
+            
+        
+
+        marker_2e577ccdb8dea6b364686796ddaed5d6.bindPopup(popup_7765cdaf0e97daaade8aae837503c9f0)
+        ;
+
+        
+    
+    
+                marker_2e577ccdb8dea6b364686796ddaed5d6.setIcon(icon_a43e92d77f53967102fb295c2b7c691b);
+            
+    
+            var marker_ef854d9aaf7042d797c2b5f5be7cb311 = L.marker(
+                [46.008643, 13.122572],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_111b0db4be816a513fbe6d62297357ea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ad20d94b0b39d8efc827096f8e9ada0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fda8d08268675b5911d0b44f7d68434 = $(`<div id="html_5fda8d08268675b5911d0b44f7d68434" style="width: 100.0%; height: 100.0%;">     <b>ATLANTE SRL</b><br>     Distanza: 643.1 km<br>     Durata: 368.6 min     </div>`)[0];
+                popup_2ad20d94b0b39d8efc827096f8e9ada0.setContent(html_5fda8d08268675b5911d0b44f7d68434);
+            
+        
+
+        marker_ef854d9aaf7042d797c2b5f5be7cb311.bindPopup(popup_2ad20d94b0b39d8efc827096f8e9ada0)
+        ;
+
+        
+    
+    
+                marker_ef854d9aaf7042d797c2b5f5be7cb311.setIcon(icon_111b0db4be816a513fbe6d62297357ea);
+            
+    
+            var marker_cc2698dc14e6e556916f71c9509396aa = L.marker(
+                [45.122836, 10.368819],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_8909cff7c4007376c4631cde28bc75c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f3b866ff32bebf9c4e48351bad7e985f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_063dde3e7de2a1efb9e936e4376cfde1 = $(`<div id="html_063dde3e7de2a1efb9e936e4376cfde1" style="width: 100.0%; height: 100.0%;">     <b>WLF C/O TRASPORTI PESANTI</b><br>     Distanza: 488.78 km<br>     Durata: 302.1 min     </div>`)[0];
+                popup_f3b866ff32bebf9c4e48351bad7e985f.setContent(html_063dde3e7de2a1efb9e936e4376cfde1);
+            
+        
+
+        marker_cc2698dc14e6e556916f71c9509396aa.bindPopup(popup_f3b866ff32bebf9c4e48351bad7e985f)
+        ;
+
+        
+    
+    
+                marker_cc2698dc14e6e556916f71c9509396aa.setIcon(icon_8909cff7c4007376c4631cde28bc75c0);
+            
+    
+            var marker_4a578b21aa851a7d1892ef00cab50fb8 = L.marker(
+                [45.610636, 13.825415],
+                {
+}
+            ).addTo(map_17dcd553e71a093bda0c5792ac23114d);
+        
+    
+            var icon_10fb1197eee9745d051dcf39c11836d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "wrench",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3e662e71b543ecd4797bb6710f97e45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_602fdd5f4ae93fe51a0ef805572a49e5 = $(`<div id="html_602fdd5f4ae93fe51a0ef805572a49e5" style="width: 100.0%; height: 100.0%;">     <b>OFFICINE FVG</b><br>     Distanza: 679.62 km<br>     Durata: 388.6 min     </div>`)[0];
+                popup_b3e662e71b543ecd4797bb6710f97e45.setContent(html_602fdd5f4ae93fe51a0ef805572a49e5);
+            
+        
+
+        marker_4a578b21aa851a7d1892ef00cab50fb8.bindPopup(popup_b3e662e71b543ecd4797bb6710f97e45)
+        ;
+
+        
+    
+    
+                marker_4a578b21aa851a7d1892ef00cab50fb8.setIcon(icon_10fb1197eee9745d051dcf39c11836d1);
+            
+</script>
+</html>
